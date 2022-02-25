@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    font-family: 'Redressed', cursive;
+}
+.headeroption{
+    /* border: 2px solid rgb(219, 19, 159); */
+    margin: auto;
+    background-image: url("./img/background1.png");
+    width: 1350px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 900px;
+    background-size: 600px; 
+}
+
+.headeroption {
+    border: 1px solid rgb(71, 17, 197);
+}
+
+nav img{
+    padding: 20px;
+}
+
+nav .navbar{
+    /* border: 1px solid rgb(223, 202, 13); */
+    display: inline-block;
+    vertical-align: top;
+}
+nav .navbar li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav .navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+    line-height: 80px;
+}

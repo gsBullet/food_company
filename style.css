@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Redressed&display=swap');
 
 body {
     font-family: 'Redressed', cursive;
@@ -7,20 +8,17 @@ body {
     /* border: 2px solid rgb(219, 19, 159); */
     margin: auto;
     background-image: url("./img/background1.png");
-    width: 1350px;
-    height: 500px;
+    width: 1200px;
+    height: 750px;
     background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 900px;
-    background-size: 600px; 
-}
-
-.headeroption {
-    border: 1px solid rgb(71, 17, 197);
+    background-position-y: 9px;
+    background-position-x: 550px;
+    background-size: 800px; 
 }
 
 nav img{
     padding: 20px 50px;
+    /* border: 1px solid blue; */
 }
 
 nav .navbar{
@@ -37,4 +35,134 @@ nav .navbar a{
     text-transform: uppercase;
     padding: 25px;
     line-height: 80px;
+    font-weight: bold;
+    
 }
+nav .navbar a:hover{
+    color: indigo;
+}
+.nanner_content .banner_left{
+    /* border: 1px solid red; */
+    vertical-align: top;
+    padding-left: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 40%;
+    font-family:  'Redressed', cursive;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.nanner_content .banner_left h5{
+    font-size: 25px;
+    color: slategray;
+}
+.nanner_content .banner_left h2{
+    font-family: 'Lobster', cursive;
+     font-size: 50px;
+     color: #063443;
+}
+.nanner_content .banner_left h3{
+    font-family: 'Shizuru', cursive;
+    color:  #063443;;
+}
+.nanner_content .banner_left button{
+    background: rgb(11,182,11);
+    background: linear-gradient(203deg, rgba(11,182,11,1) 0%, rgba(198,29,223,1) 0%, rgba(253,29,29,1) 66%);
+    padding: 15px 35px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.nanner_content .banner_right{
+    /* border: 1px solid rgb(61, 12, 196); */
+    display: inline-block;
+    text-align: right;  
+}
+.nanner_content .banner_right img{
+    /* border: 2px solid black; */
+    height: 400px;
+}
+
+.banner_info p{
+    background: #BF1324;
+    background: -webkit-linear-gradient(to right, #BF1324 0%, #CF42CA 100%);
+    background: -moz-linear-gradient(to right, #BF1324 0%, #CF42CA 100%);
+    background: linear-gradient(to right, #BF1324 0%, #CF42CA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.customer_info{
+    padding-left: 150px;
+    display: inline-block;
+}
+
+.ticket_info{
+    padding-left: 100px;
+    display: inline-block;
+    
+}
+.rate_info{
+    padding-left: 100px;
+    display: inline-block;
+}
+.about_me{
+    /* border: 2px solid rgb(219, 19, 159); */
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url("./img/background1.png");
+    width: 1200px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    background-size: 700px; 
+}
+
+.about_left img{
+    /* border: 2px solid rgb(206, 219, 19); */
+    padding-top: 30px;
+
+}
+.about_me{
+    display: flex;
+
+}
+.about_left{
+    float: left;
+    width: 50%;
+    border: 2px solid red;
+}
+.about_right{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-left: 50px;
+    border: 2px solid green;
+}
+.about_right h3{
+    color: slategray;
+    text-transform: uppercase;
+}
+.about_right h2{
+    color: #063443;
+    text-transform: capitalize;
+}
+.about_right p{
+    padding: 20px 0px;
+    color: slategray;
+}
+.about_right button{
+    background: rgb(11,182,11);
+    background: linear-gradient(203deg, rgba(11,182,11,1) 0%, rgba(198,29,223,1) 0%, rgba(253,29,29,1) 66%);
+    padding: 15px 35px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+

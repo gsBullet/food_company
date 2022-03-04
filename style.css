@@ -3,6 +3,9 @@
 
 body {
     font-family: 'Redressed', cursive;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 .headeroption{
     /* border: 2px solid rgb(219, 19, 159); */
@@ -11,9 +14,9 @@ body {
     width: 1200px;
     height: 750px;
     background-repeat: no-repeat;
-    background-position-y: 9px;
-    background-position-x: 550px;
-    background-size: 800px; 
+    background-position-y: 60px;
+    background-position-x: 580px;
+    background-size: 720px; 
 }
 
 nav img{
@@ -167,6 +170,7 @@ nav .navbar a:hover{
 }
 .service{
     /* border: 2px solid red; */
+    width: 1200px;
 }
 .service_header{
     padding-top: 100px;
@@ -293,4 +297,39 @@ span a{
     overflow: hidden;
     text-align: center;
 }
-
+.project_view{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* border: 2px solid red; */
+}
+.project_view img{
+    width: 200px;
+    height: 80px;
+    padding: 50px 15px;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+}
+footer li{
+    display: inline-block;
+    list-style-type: none;
+    color: aliceblue;
+}
+footer li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold; 
+    color: aliceblue;  
+}
+footer p{
+    font-size: 20px;
+    color: #063443;
+}
+footer p span{
+    color: #BF1324;
+    font-weight: 1000;
+}

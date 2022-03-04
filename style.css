@@ -66,7 +66,7 @@ nav .navbar a:hover{
 }
 .nanner_content .banner_left h3{
     font-family: 'Shizuru', cursive;
-    color:  #063443;;
+    color:  #063443;
 }
 .nanner_content .banner_left button{
     /* background: rgb(11,182,11); */
@@ -311,7 +311,7 @@ span a{
 footer{
     text-align: center;
     padding: 50px;
-    background-color: black;
+    background-color:  #063443;
 }
 footer li{
     display: inline-block;
@@ -327,7 +327,7 @@ footer li a{
 }
 footer p{
     font-size: 20px;
-    color: #063443;
+    color: #95aab1;
 }
 footer p span{
     color: #BF1324;

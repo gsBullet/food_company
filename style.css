@@ -191,6 +191,7 @@ nav .navbar a:hover{
 .web_dev{
     float: left;
     overflow: hidden;
+    color: #063443;
 }
 .web_dev p{
     color: slategray;
@@ -202,6 +203,7 @@ nav .navbar a:hover{
     float: left;
     overflow: hidden;
     padding: 25px;
+    color: #063443;
 }
 .ui_design img{
     height: 100px;
@@ -212,6 +214,7 @@ nav .navbar a:hover{
 .wp_dev{
     overflow: hidden;
     padding: 25px;
+    color: #063443;
 }
 .wp_dev img{
     height: 100px;
@@ -219,10 +222,75 @@ nav .navbar a:hover{
 .wp_dev p{
     color: slategrey;
 }
-span{
-    font-size: 25px;
-    text-transform: uppercase;
-}
 span a{
     color: #063443;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
+.blog_header{
+    /* border: 2px solid red; */
+    padding: 50px 0px 30px 150px;
+}
+.blog_header h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: slategrey;
+}
+.blog_header h2{
+    color: #063443;
+    font-size: 40px;
+}
+.blog_feature{
+    /* border: 2px solid black; */
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    
+}
+.blog_feature{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    color: slategrey;
+}
+.feature_one span{
+    display: block;
+    padding-top: 20px;
+}
+.feature_one h3{
+    color: #063443;
+    font-size: 30px;
+}
+.feature_two span{
+    display: block;
+    padding-top: 20px;
+}
+.feature_two h3{
+    color: #063443;
+    font-size: 30px;
+}
+.feature_three span{
+    display: block;
+    padding-top: 20px;
+}
+.feature_three h3{
+    color: #063443;
+    font-size: 30px;
+}
+.feature_one{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.feature_two{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.feature_three{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
